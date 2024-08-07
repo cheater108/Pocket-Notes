@@ -1,0 +1,82 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2f2f2fbf;
+
+    position: fixed;
+    top: 0px;
+}
+
+.dialog {
+    width: 286px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    align-items: center;
+}
+.details_text {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.details input {
+    border: 0.88px solid #cccccc;
+    padding: 5px 10px;
+    border-radius: 22em;
+    /* flex: 1; */
+    width: 63%;
+}
+
+.details input::placeholder {
+    font-size: 0.7rem;
+}
+
+.details input:focus {
+    outline: none;
+}
+
+.colors {
+    display: flex;
+    gap: 5px;
+}
+.color {
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+}
+
+.btn {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    background-color: #16008b;
+    border: none;
+    border-radius: 6px;
+    padding: 0.3em 1em;
+    width: 77%;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}

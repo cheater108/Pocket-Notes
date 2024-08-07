@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.heading {
+    padding: 1.5em 1em 0.4em 1.7em;
+    align-self: flex-start;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.btn {
+    color: white;
+    background-color: #16008b;
+    width: 93px;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 1.8rem;
+}
+
+.groups {
+    align-self: stretch;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0.8em;
+    padding-left: 1em;
+    margin-left: 8%;
+}
+
+.grp_icon {
+    color: white;
+    width: 62px;
+    height: 62px;
+    background: #0047ff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
