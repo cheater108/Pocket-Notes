@@ -24,6 +24,7 @@ function Sidebar() {
                             name={ele.name}
                             icon={ele.icon}
                             color={ele.color}
+                            id={ele.id}
                         />
                     ))}
                 </div>

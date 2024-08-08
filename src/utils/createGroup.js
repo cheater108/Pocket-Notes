@@ -7,6 +7,7 @@ function createGroup({ name, selectedColor }) {
         color: selectedColor,
         icon,
         notes: [],
+        id: new Date().getTime(),
     };
 }
 

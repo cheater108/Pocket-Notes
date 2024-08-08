@@ -15,7 +15,7 @@
 .btn {
     color: white;
     background-color: #16008b;
-    width: 93px;
+    width: 75px;
     aspect-ratio: 1/1;
     border: none;
     font-size: 3rem;
@@ -36,4 +36,6 @@
 
 .groups {
     align-self: stretch;
+    flex: 1;
+    overflow-y: auto;
 }
