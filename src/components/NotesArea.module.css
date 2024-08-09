@@ -5,3 +5,9 @@
     position: absolute;
     top: 0px;
 }
+
+@container (min-width : 600px) {
+    .container {
+        position: unset;
+    }
+}

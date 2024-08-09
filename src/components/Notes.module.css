@@ -77,3 +77,13 @@
     bottom: 2em;
     right: 1em;
 }
+
+@container (min-width:600px) {
+    .back {
+        display: none;
+    }
+
+    .icon {
+        margin-left: 20px;
+    }
+}

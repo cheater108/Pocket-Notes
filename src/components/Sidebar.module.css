@@ -39,3 +39,11 @@
     flex: 1;
     overflow-y: auto;
 }
+
+@container (min-width:600px) {
+    .heading {
+        padding-inline: 0px;
+        align-self: center;
+        padding-bottom: 1em;
+    }
+}

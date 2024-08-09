@@ -1,0 +1,24 @@
+.container {
+    display: none;
+}
+
+@container (min-width:600px) {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #dae5f5;
+    }
+
+    .people_img {
+        width: 58%;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-self: flex-end;
+    }
+}

@@ -2,3 +2,17 @@
     width: 100vw;
     height: 100vh;
 }
+
+@container (min-width:600px) {
+    .container {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .main {
+        flex: 1;
+    }
+}
