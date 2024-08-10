@@ -6,10 +6,12 @@ function NoGroupSelected() {
     return (
         <div className={styles.container}>
             <img className={styles.people_img} src={people} alt="" />
-            <h1>Pocket Notes</h1>
-            <p>
-                Send and receive messages without keeping your phone online. Use
-                Pocket Notes on up to 4 linked devices and 1 mobile phone
+            <h1 className={styles.heading}>Pocket Notes</h1>
+            <p className={styles.text}>
+                Send and receive messages without keeping your phone online.
+            </p>
+            <p className={styles.text}>
+                Use Pocket Notes on up to 4 linked devices and 1 mobile phone
             </p>
             <p className={styles.footer}>
                 <img src={lock} alt="" /> &nbsp; end-to-end encrypted

@@ -7,6 +7,12 @@
     font-family: Roboto;
 }
 
+body {
+    height: 100svh;
+}
+
 #root {
     container-type: size;
+    height: 100svh;
+    /* height: 100%; */
 }

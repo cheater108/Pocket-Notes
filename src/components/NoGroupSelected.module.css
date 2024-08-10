@@ -8,17 +8,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         background-color: #dae5f5;
+        position: relative;
+    }
+
+    .heading {
+        margin-bottom: 10px;
     }
 
     .people_img {
+        margin-top: calc(10vh);
         width: 58%;
+    }
+
+    .text {
+        text-align: center;
     }
 
     .footer {
         display: flex;
         align-items: center;
-        justify-self: flex-end;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0px;
     }
 }
