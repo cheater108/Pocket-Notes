@@ -1,8 +1,8 @@
 import getGroups from "./getGroups";
 
 function getGroupById(id) {
-    const group = getGroups().filter((e) => e.id === id);
-    return group[0] || false;
+    const group = getGroups().find((e) => e.id === id);
+    return group || false;
 }
 
 export default getGroupById;

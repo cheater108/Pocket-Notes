@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
 }
 
 @container (min-width:600px) {

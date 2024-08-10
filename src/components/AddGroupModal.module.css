@@ -79,3 +79,42 @@
     color: red;
     font-size: 0.8rem;
 }
+
+@container (min-width:600px) {
+    .dialog {
+        width: 50%;
+        padding-left: 40px;
+    }
+
+    .details {
+        gap: 30px;
+    }
+
+    .details_text {
+        font-size: 1.1rem;
+    }
+
+    .details input {
+        flex: 1;
+        margin-right: 7%;
+        padding: 10px 15px;
+        font-size: 1.1rem;
+    }
+
+    .details input::placeholder {
+        font-size: 1rem;
+    }
+    .btn {
+        width: 154px;
+        align-self: flex-end;
+    }
+
+    .colors {
+        gap: 10px;
+    }
+
+    .color {
+        width: 40px;
+        height: 40px;
+    }
+}

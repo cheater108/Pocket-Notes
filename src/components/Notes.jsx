@@ -70,11 +70,14 @@ function Notes() {
                     {enableSend() ? (
                         <img
                             src={send_enabled}
-                            className={styles.send}
+                            className={styles.send_enabled}
                             onClick={sendNote}
                         />
                     ) : (
-                        <img src={send_disabled} className={styles.send} />
+                        <img
+                            src={send_disabled}
+                            className={styles.send_disabled}
+                        />
                     )}
                 </div>
             </div>

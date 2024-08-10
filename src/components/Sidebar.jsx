@@ -5,7 +5,7 @@ import { AppContext } from "../context/AppProvider";
 import AddGroupModal from "./AddGroupModal";
 
 function Sidebar() {
-    const { groups } = useContext(AppContext);
+    const { groups, selectedGroup } = useContext(AppContext);
     const [modal, setModal] = useState(false);
     // console.log(groups);
 
@@ -18,15 +18,27 @@ function Sidebar() {
                 <h1 className={styles.heading}>Pocket Notes</h1>
 
                 <div className={styles.groups}>
-                    {groups.map((ele, ind) => (
-                        <Group
-                            key={ind}
-                            name={ele.name}
-                            icon={ele.icon}
-                            color={ele.color}
-                            id={ele.id}
-                        />
-                    ))}
+                    {groups.map((ele) =>
+                        ele.id === selectedGroup.id ? (
+                            <Group
+                                key={ele.id}
+                                name={ele.name}
+                                icon={ele.icon}
+                                color={ele.color}
+                                selected={true}
+                                id={ele.id}
+                            />
+                        ) : (
+                            <Group
+                                key={ele.id}
+                                name={ele.name}
+                                icon={ele.icon}
+                                color={ele.color}
+                                selected={false}
+                                id={ele.id}
+                            />
+                        )
+                    )}
                 </div>
                 <button className={styles.btn} onClick={handleAddClick}>
                     +

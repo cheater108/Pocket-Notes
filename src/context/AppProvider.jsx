@@ -29,6 +29,10 @@ function AppProvider({ children }) {
     }
 
     function displaySelectedGroup(id) {
+        if (selectedGroup.id === id) {
+            hideSelectedGroup();
+            return;
+        }
         setSelectedGroup(getGroupById(id));
     }
 

@@ -3,8 +3,7 @@
     align-items: center;
     gap: 20px;
     padding: 0.8em;
-    padding-left: 1em;
-    margin-left: 8%;
+    padding-left: 2.5em;
     cursor: pointer;
 }
 
@@ -28,4 +27,7 @@
 }
 
 @container (min-width:600px) {
+    .container {
+        padding-left: 1em;
+    }
 }
