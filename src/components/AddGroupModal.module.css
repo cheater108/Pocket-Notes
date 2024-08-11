@@ -1,6 +1,6 @@
 .modal {
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +55,7 @@
 .colors {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .color {
     width: 19px;
@@ -78,11 +79,13 @@
 .error {
     color: red;
     font-size: 0.8rem;
+    margin-bottom: 20px;
 }
 
 @container (min-width:600px) {
     .dialog {
         width: 50%;
+        max-width: 800px;
         padding-left: 40px;
     }
 
@@ -111,6 +114,7 @@
 
     .colors {
         gap: 10px;
+        flex: 1;
     }
 
     .color {

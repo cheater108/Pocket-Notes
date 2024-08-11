@@ -31,7 +31,6 @@
 }
 .group_name {
     color: white;
-
     letter-spacing: 0.02em;
 }
 .back {
@@ -93,5 +92,31 @@
 
     .icon {
         margin-left: 20px;
+        width: 53px;
+        height: 53px;
+        font-size: 1.2rem;
+    }
+
+    .top_bar {
+        height: 75px;
+    }
+
+    .group_name {
+        font-size: 1.2rem;
+    }
+
+    .notes_container::-webkit-scrollbar-track {
+        background: #000000a1;
+    }
+
+    .notes_container::-webkit-scrollbar-thumb {
+        border: 2px solid #000000a1;
+    }
+
+    .input_container {
+        height: 25%;
+    }
+    .input {
+        font-size: 1.1rem;
     }
 }

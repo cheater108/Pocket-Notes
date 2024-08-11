@@ -1,5 +1,5 @@
 function validateGroup({ name, selectedColor }) {
-    const nameRegex = /^[a-zA-Z\s]+$/;
+    const nameRegex = /^[a-zA-Z\s\d_.-]+$/;
     const error = {
         name: false,
         color: false,

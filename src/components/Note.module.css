@@ -21,3 +21,9 @@
     font-weight: 500;
     letter-spacing: 0.02em;
 }
+
+@container (min-width : 600px) {
+    .note_content {
+        font-size: 1.1rem;
+    }
+}

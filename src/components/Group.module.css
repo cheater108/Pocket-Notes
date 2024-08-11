@@ -5,11 +5,12 @@
     padding: 0.8em;
     padding-left: 2.5em;
     cursor: pointer;
+    overflow-y: auto;
 }
 
 .grp_icon {
     color: white;
-    width: 62px;
+    min-width: 62px;
     height: 62px;
     background: #0047ff;
     font-size: 1.3rem;
@@ -29,5 +30,11 @@
 @container (min-width:600px) {
     .container {
         padding-left: 1em;
+    }
+}
+
+@container (min-width:850px) {
+    .container {
+        padding-left: 2em;
     }
 }

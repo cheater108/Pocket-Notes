@@ -9,6 +9,20 @@
     }
 
     .sidebar {
+        width: 35%;
+    }
+
+    .main {
+        flex: 1;
+    }
+}
+
+@container (min-width:850px) {
+    .container {
+        display: flex;
+    }
+
+    .sidebar {
         width: 25%;
     }
 

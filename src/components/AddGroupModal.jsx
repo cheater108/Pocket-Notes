@@ -40,7 +40,9 @@ function AddGroupModal({ setModal }) {
                     />
                 </div>
                 {error.name && (
-                    <p className={styles.error}>Please give a valid name</p>
+                    <p className={styles.error}>
+                        &#9888; Please give a valid name
+                    </p>
                 )}
                 <div className={styles.details}>
                     <p className={styles.details_text}>Choose colour</p>
@@ -71,7 +73,9 @@ function AddGroupModal({ setModal }) {
                     </div>
                 </div>
                 {error.color && (
-                    <p className={styles.error}>Please select a color</p>
+                    <p className={styles.error}>
+                        &#9888; Please select a color
+                    </p>
                 )}
                 <button className={styles.btn} onClick={handleCreate}>
                     Create

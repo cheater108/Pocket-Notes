@@ -15,6 +15,7 @@
 
     .heading {
         margin-bottom: 10px;
+        font-size: 40px;
     }
 
     .people_img {
@@ -24,6 +25,7 @@
 
     .text {
         text-align: center;
+        font-size: 21px;
     }
 
     .footer {
